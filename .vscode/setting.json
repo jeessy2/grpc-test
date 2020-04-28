@@ -1,0 +1,10 @@
+{
+    "protoc": {
+        "path": "/home/chenjie/.local/bin/protoc",
+        "compile_on_save": true,
+        "options": [
+            "--proto_path=./proto",
+            "--go_out=plugins=grpc:."
+        ]
+    }
+}
